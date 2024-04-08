@@ -1,13 +1,15 @@
 ---
-title: "TIL: 나누어 떨어지는 수"
+title: "TIL: "
 date: 2024-04-05T16:19:53.574Z
 tags:
-    - TIL
-    - Beginner
+  - TIL
 categories:
-    - Python
+  - Python
 description: 단순 조건문은 한줄에 정리하기
-slug: til-나누어-떨어지는-수
+slug:
 keywords:
-    - 조건문
+  - 조건문
 ---
+
+<pre>
+</pre>
