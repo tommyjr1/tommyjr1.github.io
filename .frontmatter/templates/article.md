@@ -10,6 +10,3 @@ slug:
 keywords:
   - 조건문
 ---
-
-<pre>
-</pre>
