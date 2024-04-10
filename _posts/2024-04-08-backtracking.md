@@ -3,18 +3,11 @@ title: "TIL: BackTracking"
 date: 2024-04-08T11:16:52.685Z
 tags:
   - TIL
-  - code
+  - 알고리즘
   - BT
 categories:
-  - Algorithm
-  - Python
-description:
+  - PS
 slug: backtracking
-keywords:
-  - BT
-  - n-Queen
-  - Promising
-  - Pruning
 lastmod: 2024-04-08T11:16:52.685Z
 sitemap:
   changefreq: daily
