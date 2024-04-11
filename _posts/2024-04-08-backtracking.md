@@ -6,11 +6,11 @@ tags:
   - BT
 categories:
   - Algorithm
-slug: backtracking
+slug: til-backtracking
 lastmod: 2024-04-08T11:16:52.685Z
 sitemap:
   changefreq: daily
-  priority: 1.0
+  priority: 1
 ---
 
 # BackTracking
