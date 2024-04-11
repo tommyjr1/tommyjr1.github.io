@@ -30,7 +30,7 @@ DFS 방식처럼 State Space Tree를 깊이우선으로 탐색하는데,
 
 코테는 감안해서 줄것으로 예상.
 
-![내,,,내 삽질,,,,하](../../assets/img/posts/image.png)
+![내,,,내 삽질,,,,하](../assets/img/posts/image.png)
 Look at my 삽질;
 
 ```py
