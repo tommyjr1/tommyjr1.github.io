@@ -129,3 +129,63 @@ print(topdown(1))
   - 안선택하는 경우, 그냥 다음물건 선택할지말지로 바로 넘어가면 됨.
 
 [백준 Dance Dance Revolution](https://www.acmicpc.net/problem/2342)
+
+- 했다. holy~
+- 근데 그 캐싱을 제대로 못했다. 다음 인덱스를 저장해두면, 이건 매 순간 다르니까 나는 의미가 없다고 생각하고서는 다음 인덱스말고 다음으로 가야하는 곳을 저장했다.<br>
+  그런데, 내가 모든 경우를 뿌리내린다는 생각을 놓쳤다. <br>
+  정답만 재귀하지 않고 나쁜 값도 재귀한다는 걸 잊지말자.
+
+```py
+import sys
+sys.setrecursionlimit(10**6)
+
+sys.stdin = open("../input.txt", "r")
+input = sys.stdin.readline
+
+# 0에서 1,2,3,4 : 2의 힘
+# 차이가 2 나는 움직임: 4의 힘
+# 그게 아니면: 3의 힘
+# 똑같은 곳 반복: 1의 힘
+
+inputs = list(map(int, input().split(' ')))
+N = 100000
+
+totalcnt = len(inputs)-1
+#지금 Totalcnt 4
+dp = [[[-1]*N for _ in range(N)]for _ in range(N)]
+def movepower(nows, next):
+    ans=3
+    if nows==0:
+        ans=2
+    elif abs(nows-next)==2:
+        ans= 4
+    elif nows==next:
+        ans= 1
+    return ans
+def dpfunc(leftpt, rightpt, nextindex):
+    #next가 4면 안됨.
+    if nextindex>=totalcnt:
+        return 0
+    if nextindex>0 and leftpt==rightpt:
+        return N;
+
+    if dp[leftpt][rightpt][nextindex]>0:
+        return dp[leftpt][rightpt][nextindex]
+
+    nextpt = inputs[nextindex]
+
+    if nextpt==rightpt:
+        dp[leftpt][rightpt][nextindex] = dpfunc(leftpt, nextpt, nextindex + 1) + 1
+    elif nextpt==leftpt:
+        dp[leftpt][rightpt][nextindex] = dpfunc(nextpt, rightpt, nextindex+1) + 1
+    else:
+        moveLeft = dpfunc(nextpt, rightpt, nextindex + 1) + movepower(leftpt, nextpt)
+        moveRight = dpfunc(leftpt, nextpt, nextindex + 1) + movepower(rightpt, nextpt)
+
+        dp[leftpt][rightpt][nextindex] = min(moveLeft, moveRight)
+
+
+    return dp[leftpt][rightpt][nextindex]
+
+print(dpfunc(0,0,0))
+```
