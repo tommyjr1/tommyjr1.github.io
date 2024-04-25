@@ -7,7 +7,6 @@ tags:
   - MST
 categories:
   - Algorithm
-slug: til-mst-크루스칼-알고리즘
 lastmod: 2024-04-10T00:16:29.906Z
 sitemap:
   changefreq: daily

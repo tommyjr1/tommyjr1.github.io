@@ -8,11 +8,10 @@ tags:
 categories:
   - PS
 description: 단순 조건문은 한줄에 정리하기
-slug: til-나누어-떨어지는-수
 lastmod: 2024-04-05T16:19:53.574Z
 sitemap:
   changefreq: daily
-  priority: 1.0
+  priority: 1
 ---
 
 <a href = 'https://school.programmers.co.kr/learn/courses/30/lessons/12910'>나누어 떨어지는 수</a>

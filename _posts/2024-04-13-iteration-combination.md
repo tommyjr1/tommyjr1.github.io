@@ -10,7 +10,6 @@ lastmod: 2024-04-12T17:19:57.958Z
 sitemap:
   changefreq: daily
   priority: 1
-slug: til-itertools-없이-순열과-조합
 ---
 
 삼성 코테에서는 sys 도 못쓰고 itertools도 못쓴다니.

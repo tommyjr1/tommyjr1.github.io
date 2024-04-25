@@ -9,7 +9,6 @@ lastmod: 2024-04-25T07:04:30.074Z
 sitemap:
   changefreq: daily
   priority: 1
-slug: 2024-상반기-cj올리브네트웍스-복기
 ---
 
 1. 2023 하반기 - Data Analytics Engineer

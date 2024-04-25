@@ -6,7 +6,6 @@ tags:
   - BT
 categories:
   - Algorithm
-slug: til-backtracking
 lastmod: 2024-04-08T11:16:52.685Z
 sitemap:
   changefreq: daily

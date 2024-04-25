@@ -9,7 +9,6 @@ lastmod: 2024-04-17T06:27:12.967Z
 sitemap:
   changefreq: daily
   priority: 1
-slug: 2024-상반기-삼성코테-오전-복시
 ---
 
 나는 1번이랑 2번보고 2번을 먼저 풀었음.<br>

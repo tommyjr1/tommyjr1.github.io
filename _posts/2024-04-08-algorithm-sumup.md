@@ -8,7 +8,6 @@ tags:
   - 값 찾기
 categories:
   - Algorithm
-slug: til-코테-공부도-방법이-있구나
 lastmod: 2024-04-10T05:53:59.380Z
 sitemap:
   changefreq: daily
