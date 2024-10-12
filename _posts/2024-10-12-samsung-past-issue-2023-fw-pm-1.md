@@ -1,14 +1,14 @@
 ---
 title: 2023 삼성 하반기 오후 1번 - 루돌프의 반란
-date: null
+date: 2024-10-12T14:17:57.650Z
 tags: []
 categories: []
 description: null
 slug: null
 lastmod: null
 sitemap:
-  changefreq: ""
-  priority: 0
+  changefreq: "daily"
+  priority: 1
 ---
 
 ```py
