@@ -1,13 +1,14 @@
 ---
 title: 2024 삼성 코테 복기
-date: null
-tags: []
+date: 2024-10-13T11:13:36.785Z
+tags:
+  - Review
 categories: []
 description: null
 slug: null
 lastmod: null
 sitemap:
-  changefreq: ""
+  changefreq: daily
   priority: 0
 ---
 1. NxN 마을에 MxMxM(N< M) 인 3차원 산이 있었음. 이걸 나는 왜 멍청하게 진자 2차원 전개도를 그릴라했을까... 그냥 3차원배열쓰면서 내려가는 것으로 만들면 되는 거였을텐데...
