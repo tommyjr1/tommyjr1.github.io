@@ -1,5 +1,5 @@
 ---
-title: samsung part issue 2023 ss pm 1
+title: 2023 삼성 상반기 오후 1번
 date: 2024-10-12T22:21:07.593Z
 tags: []
 categories: []
